@@ -2,11 +2,15 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;    
 }
+/* // RESET------------ */
+
 
 body {
-    background-color: rgb(246, 248, 249)
+    font-family: Arial, sans-serif;
+    background-color: rgb(233, 235, 236)
+    
 }
 
 header{
@@ -19,25 +23,30 @@ header{
     background-color: aqua;  
 }
 
-main {
-    background-color: blue;
-    margin-left: 50px;
-    margin-right: 50px;
-    
+
+
+nav, section {
+    background-color: rgba(255, 0, 98, 0.411);
+    margin-left: 18%;
+    margin-right: 18%;        
+    padding-left: 80px;
+    padding-right: 80px;      
 }
 
-.Contenitore-di-nav-e-section {
-    background-color: rgb(234, 0, 255);
-    margin-left: 50px;
-    margin-right: 50px;   
-}
-
-nav {
-    background-color: rgb(255, 0, 98);
-    padding-top: 10px;
+nav{
+    margin-top: 50px; 
+    margin-bottom: 5px;          
+    padding-top: 10px; 
     padding-bottom: 10px;
-    margin-bottom: 50px;
 }
+
+section {    
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
 
 
 nav button {
@@ -51,15 +60,12 @@ nav button {
 
 }
 
-section {
-    background-color: rgb(187, 255, 0);  
-  
-}
+
 
 .spunta {
     border: 1px solid black;
     border-radius: 50%;
-
+   
     padding-top: 1px;
     padding-bottom: 1px;
     padding-left: 5px;
@@ -78,6 +84,9 @@ section {
 
 
 
+
+
+
 .button {   
     color: white;
     border: 1px solid rgb(20, 170, 245);
@@ -93,7 +102,9 @@ section {
 }
 
 
-
+.button-q1-goals {   
+    background-color: rgb(171, 93, 230);
+}
 
 
 
