@@ -14,19 +14,17 @@ body {
 }
 
 header{
-    background-color: rgb(30, 255, 0);
     padding-top: 8px;
     padding-bottom: 8px;
 }
 
-#contenitore-logo-header {
-    background-color: aqua;  
+#contenitore-logo-header, header, nav, section {
+    background-color: white;
 }
 
 
 
 nav, section {
-    background-color: rgba(255, 0, 98, 0.411);
     margin-left: 18%;
     margin-right: 18%;        
     padding-left: 60px;
@@ -172,10 +170,8 @@ h1 {
 /* 
 
 cosa manca?
-1capire come far salire la freccietta piccola 
-                                                e il segno di spunta
+1capire come far salire la freccia piccola e il segno di spunta
 2allargare la X (&#10060; o &#9747; 
-
 
 
 
