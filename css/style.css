@@ -49,6 +49,7 @@ section {
 
 section > ul> li {    
     padding-bottom: 30px;
+    list-style-type: none; /* (per far scomparire i pallini da liste ul) */
 }
 
 
@@ -171,10 +172,9 @@ h1 {
 /* 
 
 cosa manca?
-fare la lista ul e li
-e capire come far salire la freccietta piccola 
+1capire come far salire la freccietta piccola 
                                                 e il segno di spunta
-allargare la X (&#10060; o &#9747; 
+2allargare la X (&#10060; o &#9747; 
 
 
 
